@@ -5,11 +5,11 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "hello-service",
-          "Port": 8080
+          "Host": "pm-be-service",
+          "Port": 8082
         }
       ],
-      "UpstreamPathTemplate": "/hello/{everything}",
+      "UpstreamPathTemplate": "/film",
       "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"]
     },
     {
@@ -17,27 +17,16 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "view-service",
-          "Port": 8080
+          "Host": "pm-fe-service",
+          "Port": 8083
         }
       ],
-      "UpstreamPathTemplate": "/views/{everything}",
+      "UpstreamPathTemplate": "/{everything}",
       "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"]
     },
-    {
-        "DownstreamPathTemplate": "/count/{everything}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "view-service",
-            "Port": 80
-          }
-        ],
-        "UpstreamPathTemplate": "/views/count/{everything}",
-        "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"]
-      }
+    
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://api-gateway:8080"
+    "BaseUrl": "http://host.internal.docker:8080"
   }
 }

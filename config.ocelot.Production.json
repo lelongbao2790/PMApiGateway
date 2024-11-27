@@ -5,11 +5,11 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "hello-service.enc-app-dev.svc.cluster.local",
+          "Host": "pm-be-service.brian-app.svc.cluster.local",
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "/",
+      "UpstreamPathTemplate": "/film",
       "UpstreamHttpMethod": ["Get"]
     },
     {
@@ -17,40 +17,16 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "hello-service.enc-app-dev.svc.cluster.local",
+          "Host": "pm-fe-service.brian-app.svc.cluster.local",
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "/hello/{everything}",
+      "UpstreamPathTemplate": "/everything}",
       "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"]
     },
-    {
-      "DownstreamPathTemplate": "/{everything}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "view-service.enc-app-dev.svc.cluster.local",
-          "Port": 80
-        }
-      ],
-      "UpstreamPathTemplate": "/views/{everything}",
-      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"]
-    },
-    {
-      "DownstreamPathTemplate": "/",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "view-service.enc-app-dev.svc.cluster.local",
-          "Port": 80
-        }
-      ],
-      "UpstreamPathTemplate": "/view",
-      "UpstreamHttpMethod": ["Get"]
-    }
+    
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://api.enclave-it.click",
-    "RequestIdKey": "OcRequestId"
+     "BaseUrl": "http://host.internal.docker:8080"
   }
 }
