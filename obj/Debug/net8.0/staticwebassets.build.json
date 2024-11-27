@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LhjNKbRfhy4rW0WXbDaOijVjjr+L7sS+JDjqGysFycQ=",
+  "Source": "PM-Api-Gateway",
+  "BasePath": "_content/PM-Api-Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
