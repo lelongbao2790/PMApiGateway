@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "pm-fe-service",
-          "Port": 8083
+          "Port": 8082
         }
       ],
       "UpstreamPathTemplate": "/{everything}",
@@ -27,6 +27,6 @@
     
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://host.internal.docker:8080"
+    "BaseUrl": "http://host.internal.docker:8082"
   }
 }

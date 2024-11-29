@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Enclave_Data\\ProductManager\\PM-Api-Gateway\\PM-Api-Gateway\\PM-Api-Gateway.csproj": {}
+    "D:\\Enclave_Data\\ProductManager\\ApiGateway\\PMApiGateway\\PM-Api-Gateway.csproj": {}
   },
   "projects": {
-    "D:\\Enclave_Data\\ProductManager\\PM-Api-Gateway\\PM-Api-Gateway\\PM-Api-Gateway.csproj": {
+    "D:\\Enclave_Data\\ProductManager\\ApiGateway\\PMApiGateway\\PM-Api-Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Enclave_Data\\ProductManager\\PM-Api-Gateway\\PM-Api-Gateway\\PM-Api-Gateway.csproj",
+        "projectUniqueName": "D:\\Enclave_Data\\ProductManager\\ApiGateway\\PMApiGateway\\PM-Api-Gateway.csproj",
         "projectName": "PM-Api-Gateway",
-        "projectPath": "D:\\Enclave_Data\\ProductManager\\PM-Api-Gateway\\PM-Api-Gateway\\PM-Api-Gateway.csproj",
+        "projectPath": "D:\\Enclave_Data\\ProductManager\\ApiGateway\\PMApiGateway\\PM-Api-Gateway.csproj",
         "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-        "outputPath": "D:\\Enclave_Data\\ProductManager\\PM-Api-Gateway\\PM-Api-Gateway\\obj\\",
+        "outputPath": "D:\\Enclave_Data\\ProductManager\\ApiGateway\\PMApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

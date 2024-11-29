@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jfhEglq2vks=",
+  "dgSpecHash": "lgRDcWUuGDg=",
   "success": true,
-  "projectFilePath": "D:\\Enclave_Data\\ProductManager\\PM-Api-Gateway\\PM-Api-Gateway\\PM-Api-Gateway.csproj",
+  "projectFilePath": "D:\\Enclave_Data\\ProductManager\\ApiGateway\\PMApiGateway\\PM-Api-Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brian\\.nuget\\packages\\cachemanager.core\\2.0.0-beta-1629\\cachemanager.core.2.0.0-beta-1629.nupkg.sha512",
     "C:\\Users\\Brian\\.nuget\\packages\\cachemanager.microsoft.extensions.configuration\\2.0.0-beta-1629\\cachemanager.microsoft.extensions.configuration.2.0.0-beta-1629.nupkg.sha512",
